@@ -4,7 +4,8 @@ import Home from '../views/Home.vue';
 import Bbb from '../views/Bbb.vue';
 import Ccc from '../views/Ccc.vue';
 import Ddd from '../views/Ddd.vue';
-
+import Eee from '../views/Eee.vue';
+import Fff from '../views/Fff.vue';
 const routes = [
   {
     path: '/',
@@ -27,6 +28,17 @@ const routes = [
     component: Ddd,
     props: true,
   },
+  {
+    path: '/eee',
+    name: 'Eee',
+    component: Eee,
+  },
+  {
+    path: '/fff',
+    name: 'Fff',
+    component: Fff,
+  },
+
   // 你可以在这里添加更多的路由
 ];
 
